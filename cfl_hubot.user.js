@@ -8,8 +8,8 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @downloadURL  [Google Drive Link Placeholder]
-// @updateURL    [Google Drive Link Placeholder]
+// @downloadURL  https://github.com/prabhat-suse/cfl-ops-hubot-script/raw/refs/heads/main/cfl_hubot.user.js
+// @updateURL    https://github.com/prabhat-suse/cfl-ops-hubot-script/raw/refs/heads/main/cfl_hubot.user.js
 // ==/UserScript==
 
 (function() {
