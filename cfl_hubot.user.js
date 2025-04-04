@@ -638,5 +638,51 @@ Step 2: Creating the Report
 "Fx Date" is the only required field in the Monitor, this is the company FX rate per trading period.
 Next, refine your report by selecting your desired criteria or adding filters under "Adapt Filter." Once you've set your parameters, click the "GO" button. The report data will then appear on your screen. You can download this data for further analysis.
 
+
+*****************************
+New tab content starts here - Revenue Dashboard
+
+Revenue Dashboard
+
+Process Flow Steps
+
+Step 1.  Check & Update the WW Roll-Up Google Sheet
+The WW Services Revenue Forecast Roll-Up Google Sheet contains weekly data for the current quarter, updated every Thursday by Geo Ops member:
+Anna K - EMEA
+Anna N - APAC
+Candice - AMS
+If the data is not updated, we reach out to the respective Geo Ops members for an update.
+We use a formula (=cell number) in the Current Week column to reference the latest week's data.
+Purpose : This will ensure automatic update in the dashboard.
+Once confirmed, download the updated Google Sheet : go to File > Download > comma separated value (csv)
+
+Step 2.  Upload Data to Salesforce Analytics Studio
+Open Salesforce Analytics Studio and search for the respective quarter’s dataset
+Format: WW Services Revenue Forecast Roll-Up - FYXX QX (e.g., FY25 Q2)
+Replace Data
+Click the dropdown next to the dataset > Select Edit
+Click the Replace Data icon (right side of the page)
+Upload the downloaded CSV file
+Click Next > OK to confirm data replacement
+The dashboard will automatically update with this updated data.
+
+Step 3.  Update Reports & Visuals in Analytics Studio
+Open Analytics Studio and search for 'Services Revenue' Dashboard.
+Click on the relevant quarter’s services forecast tab (e.g., Services FC Q2).
+Edit the dashboard and it specific reports & visuals:
+To enable dashboard editing, click on the edit option on the top right of the dashboard.
+To update a specific report: Double-click on it.
+Add the respective week's column, rename it, and format as "Currency Rounded"
+Repeat for other required visuals.
+Adjust Bar Colors for 'Forecast to Budget (Week-on-Week)' Chart:
+Single click on the chart > Right-side format panel opens
+Under Conditional Formatting, adjust colors to match existing bars
+Click on the Save button.
+
+Step 4.  Notify Geo Ops Team
+Go to the Slack channel (team-cfl-operations-team-comms)
+Inform the Geo Ops team that the dashboard has been updated.
+
+    
     `;
 })();
