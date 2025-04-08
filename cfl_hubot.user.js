@@ -337,6 +337,8 @@ Step 8. Update Respective Columns in the Revenue Recognition File
 - Customer Details, Billable Hours from the timesheet.
 - Hourly Rate (calculated by dividing contract value from Clarizen by total hours).
 
+NOTE: In this revenue recognition file, currency should be updated as per the local currency or as considered in SOW.
+
 Storing Timesheet for Documentation
 Step 9. Navigate to SUSE Services Drive
 Access the Consulting Request folder in the SUSE Services Drive.
@@ -353,11 +355,16 @@ Step 12. Update the Revenue Forecast Google Sheet
 Go to the FY24/25 Services Forecasting Documents Drive, select relevant FY folder, EMEA folder, and Quarter folder.
 Open the Revenue Forecasting sheet, and update details for the respective customer such as delivered hours, amount & status, as per the timesheet.
 
+NOTE: The amount and currency should always be updated in USD in the Revenue Forecast sheet..
+
 Sending Acknowledgment
 Step 13. Send Email to Finance Team
 Compose an email to the Finance team (to Rostant Hermond Kamgang He) with the Revenue Recognition details.
 Email: rostanthermond.kamganghe@suse.com
 Attach both the timesheet and the Revenue Recognition file to the email.
+
+NOTE: Step 14 we do twice a month with consolidated details of Revenue Recognition Request.
+
 Step 14. Acknowledge Project Manager
 Send an acknowledgment email to the Project Manager confirming that the revenue recognition request has been processed.
 
