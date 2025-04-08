@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         CFL Ops HuBot
-// @version      1.0.1
+// @version      1.0.2
 // @description  CFL Ops HuBot is a simple chatbot designed to help users understand SUSE’s CFL Operations Hub documentation. It answers questions about process documentation by providing clear summaries and detailed explanations in an easy, interactive way.
 // @author       prabhat
 // @match        https://sites.google.com/suse.com/cfl-operations-hub*
